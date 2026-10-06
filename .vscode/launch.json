@@ -9,7 +9,10 @@
             "name": "Steam Service",
             "request": "launch",
             "mainClass": "ds454.locomotive.steamservice.App",
-            "projectName": "steam-service"
+            "projectName": "steam-service",
+            "envFile": [
+                "${workspaceFolder}/local-dev/env/steam-service/steam-service.env"
+            ]
         }
     ]
 }
