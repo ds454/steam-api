@@ -19,7 +19,7 @@ pipeline {
         container('buildkit') {
           script {
             sh """
-                  echo "Hello, World!"
+                  ls -lah
           """
           }
         }
